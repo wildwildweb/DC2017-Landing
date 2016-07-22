@@ -8,7 +8,8 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="animate.css" media="screen" />
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/count.js"></script>
 </head>
 
 <body>
@@ -18,11 +19,17 @@
   <div id="container">
   
     <section id="intro" class="group">
-    
+       <div class="intro-title">
         <h1>Drupalcamp 2017</h1>
-        <img src="img/letter-a.svg" width="300px"/>
-        <img src="img/arrow.gif" class="animated flash" />
-                    
+		<span>Madrid<br/>24/25/26 Mayo</span>
+	   </div>	
+	    <img class="letter d" src="img/letter-d.svg" width="250px"/>
+        <img class="letter r"  src="img/letter-r.svg" width="280px"/>
+	    <img class="letter u"  src="img/letter-u.svg" width="440px"/>
+        <img class="letter p"  src="img/letter-p.svg" width="300px"/>
+        <img class="letter al"  src="img/letter-a.svg" width="540px"/>
+        <img class="arrow"  src="img/arrow.gif" class="animated flash" />
+		                 
     </section><!--intro-->
     
     
@@ -33,6 +40,16 @@
         <p>La Drupalcamp reúne durante un fin de semana a los mejores expertos del sector.</p>
 		<p>El objetivo de la Drupal Camp es difundir y compartir las tendencias de la industria del desarrollo web en Drupal y sirve como punto de encuentro para la comunidad española.</p>
         </div>
+		<div id="countdown" class="timer"></div>
+		
+		<img class="ico thunder" src="img/ico-thunder.svg" />
+        <img class="ico saturn" src="img/ico-saturn.svg" />
+		<img class="ico cloud" src="img/ico-cloud.svg" />
+		<img class="ico drop" src="img/ico-drop.svg" />
+		<img class="ico computer" src="img/ico-computer.svg" />
+		<img class="ico mobile" src="img/ico-mobile.svg" />
+
+
       
     </section><!--slogan-->
     
