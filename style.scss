@@ -579,6 +579,8 @@ textarea {
   #slogan {
     color: #fff;
     background: #4b26e6;
+    z-index: 1;
+    position: relative;	
   }
   
   #slogan .ico {
@@ -643,7 +645,16 @@ textarea {
 /* #sponsor */
   #sponsor {
     color: #4b26e6;    
-    background: #fff url('img/circles.svg') no-repeat top left;    
+    /*background: #fff url('img/circles.svg') no-repeat top left;*/    
+    position: relative;
+  }
+
+  #circles {
+    position: absolute;
+    right: -460px;
+    top: -500px;
+    overlay: hidden;
+    z-index: -1;	
   }
 
 /* #community */
