@@ -1,58 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width">
-<link rel="shortcut icon" href="img/favicon.ico" />
-<title>Drupalcamp</title>
-<script src="https://use.typekit.net/vcu3qeq.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="animate.css" media="screen" />
-<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-<script type="text/javascript" src="js/count.js"></script>
-<script type="text/javascript" src="js/plax.js"></script>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $('img.d').plaxify({"xRange":40,"yRange":40})
-    $('img.r').plaxify({"xRange":20,"yRange":20})
-    $('img.u').plaxify({"xRange":10,"yRange":10,"invert":true})
-    $('img.p').plaxify({"xRange":40,"yRange":40,"invert":true})
-    $('img.al').plaxify({"xRange":30,"yRange":30})
-    $.plax.enable()
-  })
-</script>
+	<title>Drupalcamp 2017</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+     
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://use.typekit.net/vcu3qeq.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/modernizr.js"></script>
+    <script src="js/count.js"></script>
+    <script src="js/plax.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/main.js"></script>
+	
 </head>
 
-<body>
+<body data-hijacking="on" data-animation="parallax">
 
+	<section id="intro" class="cd-section visible">
+	<div class="sub">
 
-
-  <div id="container">
-  
-    <section id="intro" class="group">
        <div class="intro-title">
         <h1>Drupalcamp 2017</h1>
 		<span>Madrid<br/>24/25/26 Mayo</span>
 	   </div>	
 	    <img class="letter d" src="img/letter-d.svg" width="250px"/>
-        <img class="letter r"  src="img/letter-r.svg" width="280px"/>
-	    <img class="letter u"  src="img/letter-u.svg" width="440px"/>
-        <img class="letter p"  src="img/letter-p.svg" width="300px"/>
-        <img class="letter al"  src="img/letter-a.svg" width="540px"/>
+        <img class="letter r" src="img/letter-r.svg" width="280px"/>
+	    <img class="letter u" src="img/letter-u.svg" width="440px"/>
+        <img class="letter p" src="img/letter-p.svg" width="300px"/>
+        <img class="letter al" src="img/letter-a.svg" width="540px"/>
         <img class="arrow flash animated" src="img/arrow.svg" />
-		                 
-    </section><!--intro-->
+        
+	</div>
+	</section>
 
-    
-    
-    <section id="slogan" class="group">
-    
+
+	<section id="slogan" class="cd-section">
+	<div class="sub">
+
         <h2>Short n Sweet</h2>
+        
         <div class="description">
-        <p>La Drupalcamp reúne durante un fin de semana a los mejores expertos del sector.</p>
-		<p>El objetivo de la Drupal Camp es difundir y compartir las tendencias de la industria del desarrollo web en Drupal y sirve como punto de encuentro para la comunidad española.</p>
+          <p>La Drupalcamp reúne durante un fin de semana a los mejores expertos del sector.</p>
+		  <p>El objetivo de la Drupal Camp es difundir y compartir las tendencias de la industria del desarrollo web en Drupal y sirve como punto de encuentro para la comunidad española.</p>
         </div>
+        
 		<div id="countdown" class="timer"></div>
 		
 		<img class="ico thunder" src="img/ico-thunder.svg" />
@@ -62,55 +63,60 @@
 		<img class="ico computer" src="img/ico-computer.svg" />
 		<img class="ico mobile" src="img/ico-mobile.svg" />
 
+	</div>
+	</section><!--slogan-->
+	
 
-      
-    </section><!--slogan-->
-    
-    
-    <section id="sponsor" class="group">
+	<section id="sponsor" class="cd-section">
+	<div class="sub">
 
-      <h2>Conviértete en patrocinador</h2> 
+        <h2>Conviértete en patrocinador</h2> 
         <div class="description">
           <p>Sponsoriza el evento y obtén a cambio difusión de tu marca.</p>
         </div>
         <a href="#" class="button">Descarga el dossier de patrocinios</a>
       
-        <img id="circles" class="animated rotateIn infinite" src="img/circles.svg" />
-      
-    </section><!--sponsor-->
-    
-    
-    <section id="community" class="group animated pulse">
+	</div>
+	</section><!--sponsor-->
+	
+	
+
+	<section id="community" class="cd-section">
+	<div class="sub">
 
         <h2>Uneté a la comunidad</h2>
         <div class="description">
           <p>La comunidad Drupal en España va aumentando año tras año. Cada vez son más las empresas, autónomos o estudiantes que se unen a una de las familias más influyentes del desarrollo web nacional.</p>
         </div> 
-        <a href="#" class="button">Únete a la asociación española de Drupal</a>       
-      
-    </section><!--community-->
+        <a href="#" class="button">Únete a la asociación española de Drupal</a>     
 
-    
-    <section id="newsletter" class="group">
-      
+	</div>
+	</section><!--community-->
+	
+	
+
+	<section id="newsletter" class="cd-section">
+	<div class="sub">
+
          <h2>Mantente informado</h2> 
-         <div class="description animated fadeInUp">
+         <div class="description">
           <p>Suscribete a nuestra lista de correo y no te pierdas las noticias sobre la Drupal Camp.</p>
-         </div>         
-                      
-    </section><!--newsletter-->
+         </div> 
+
+	</div>
+	</section><!--newsletter-->
 
     
-    <footer class="group">
+    <section id="footer" class="cd-section">
+	<div class="sub">
+    
         <a href="http://asociaciondrupal.es/" class="aes">Asociación Española de Drupal</a>
         <a href="#" class="contact">Contacto</a>
         <a href="https://www.facebook.com/DrupalCampSpain" class="facebook">Facebook</a>
         <a href="https://twitter.com/DrupalAED" class="twitter">Twitter</a>    
-    </footer>
-
-    
-  </div>
-
+        
+    </div>                         
+    </section>
 
 
 </body>
