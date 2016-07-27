@@ -56,13 +56,13 @@
   .button {
   	display: inline-block;
     padding: 30px 50px 30px 78px;
-    background-color: #4b26e6;
     color: #fff;
     text-decoration: none;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 130%;
+    background:  #4b26e6 url('../img/ico-button-arrow.svg') no-repeat left 30px center; 
   }
   
   
@@ -70,6 +70,14 @@
   .cd-section .sub {
     height: 100vh;
     padding: 100px;
+  }
+  
+  .cd-section .content {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-45%, -50%);
+      width: 90%;
   }
 
 
@@ -149,7 +157,8 @@
     margin: 0;
     padding: 30px;
     text-transform: uppercase;
-    font-family: "futura-pt-condensed",sans-serif;  	
+    font-family: "futura-pt-condensed",sans-serif;  
+	font-weight: 800;	
   }
   
   #intro span {
@@ -203,10 +212,9 @@
 
 
   /* slogan */
-  #slogan {
+  #slogan div.sub {
     color: #fff;
     background: #4b26e6;
-    position: relative;	
     z-index: 2;      
   }
   
@@ -271,13 +279,24 @@
     background: #fff;   
     z-index: 3;       
   }
-
+  
+  #sponsor { 
+    background:  #fff url('../img/circle.svg') no-repeat right top; 
+  }
   
   /* community */
-  #community div {
+  #community div.sub {
     background: #fff url('../img/community.jpg') no-repeat center center;
     background-size: cover;	     
     z-index: 4;        
+  }
+  
+  #community h2 {
+	color: #dd2d75;
+  }
+  
+  #community .description p {
+	color: #4b26e6;
   }
 
   
@@ -287,7 +306,40 @@
     background-color: #dd2d75;
     z-index: 5;           
   }
-
+  
+  #newsletter h2:after {
+	  background: transparent url("../img/zig-zag-blue.svg") no-repeat scroll left top;
+  }
+  
+  #newsletter .ico {
+	  position: absolute;
+  }
+  
+  .ico.code {
+      right: 15%;
+      top: 5%;
+  }
+  
+  .ico.diamond {
+      right: 45%;
+      top: 15%;
+  }
+  
+  .ico.taxonomy {
+      right: 15%;
+      top: 35%;
+  }
+  
+  .ico.newsletter {
+      right: 30%;
+      top: 45%;
+  }
+  
+  .ico.mouse {
+      right: 22%;
+      top: 65%;
+  }
+  
 
   /* footer */
   #footer div {
