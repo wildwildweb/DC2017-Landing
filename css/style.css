@@ -274,16 +274,13 @@
 
   
   /* sponsor */
-  #sponsor div {
+  #sponsor div.sub {
     color: #4b26e6;    
-    background: #fff;   
+    background:  #fff url('../img/circle.svg') no-repeat right -60% top 900%; 
     z-index: 3;       
   }
   
-  #sponsor { 
-    background:  #fff url('../img/circle.svg') no-repeat right top; 
-  }
-  
+ 
   /* community */
   #community div.sub {
     background: #fff url('../img/community.jpg') no-repeat center center;
@@ -301,10 +298,10 @@
 
   
   /* newsletter */
-  #newsletter div {
-    color: #fff;
-    background-color: #dd2d75;
-    z-index: 5;           
+  #newsletter div.sub {
+      color: #fff;
+      background-color: #dd2d75;
+      z-index: 5;           
   }
   
   #newsletter h2:after {
@@ -317,35 +314,96 @@
   
   .ico.code {
       right: 15%;
-      top: 5%;
+      top: 20%;
   }
   
   .ico.diamond {
-      right: 45%;
-      top: 15%;
+      right: 40%;
+      top: 30%;
   }
   
   .ico.taxonomy {
-      right: 15%;
-      top: 35%;
+      right: 27%;
+      top: 45%;
   }
   
   .ico.newsletter {
-      right: 30%;
-      top: 45%;
+      right: 55%;
+      top: 65%;
   }
   
   .ico.mouse {
       right: 22%;
-      top: 65%;
+      top: 75%;
   }
   
 
   /* footer */
-  #footer div {
-    background-color: #fff;	
-    z-index: 6;           
+  #footer {
+   text-align: center;
   }
+  
+  #footer div.sub {
+    background-color: #fff;	
+    z-index: 6;
+  }
+  
+  #footer.cd-section .content {
+    transform: translate(-50%, -50%);
+  }
+  
+  #footer span {
+	  color: #b3b3b3;
+	  display: block;
+	  text-transform: uppercase;
+	  margin-bottom: 50px;
+  }
+  
+  #footer a.aed {
+      background: transparent url("../img/aed.png") no-repeat scroll center center;
+	  display: block;
+	  height: 100px;
+	  margin: 0 auto 100px;
+	  text-indent: -9000px;
+	  width: 218px;
+  }
+  
+  #footer .rrss a {
+      display: inline-block;
+      margin: 0 2%;
+	  color: #b3b3b3;
+	  text-transform: uppercase;
+	  font-size: 120%;
+	  text-decoration: none;
+	  padding-left: 45px;
+	  line-height: 37px;
+	  height: 37px;
+  }
+  
+    #footer .rrss a.contact {
+        background: transparent url('../img/contacto.svg') no-repeat center left; 
+    }
+	
+    #footer .rrss a.facebook {
+        background: transparent url('../img/facebook.svg') no-repeat center left; 
+    }
+	
+    #footer .rrss a.twitter {
+        background: transparent url('../img/twitter.svg') no-repeat center left; 
+    }
+	
+  #footer .pattern {
+    background: url('../img/pattern.jpg') repeat bottom left;  
+    bottom: 0;
+    height: 85px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;      
+ }	
+  
+  
+
 
 
 
