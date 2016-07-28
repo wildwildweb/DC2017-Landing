@@ -3,13 +3,15 @@
 
 <head>
 	<title>Drupalcamp 2017</title>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="img/favicon.ico" />
-     
+
 	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="https://use.typekit.net/vcu3qeq.js"></script>
@@ -20,116 +22,134 @@
     <script src="js/plax.js"></script>
 	<script src="js/velocity.min.js"></script>
 	<script src="js/velocity.ui.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
 	<script src="js/main.js"></script>
-	
 </head>
 
-<body data-hijacking="on" data-animation="parallax">
+<body>
 
-	<section id="intro" class="cd-section visible">
-	<div class="sub">
+    <div id="fullpage">
+        <section id="intro" class="cd-section section">
+        <div class="sub">
 
-       <div class="intro-title">
-        <h1>Drupalcamp 2017</h1>
-		<span>Madrid<br/>24/25/26 Mayo</span>
-	   </div>	
-	    <img class="letter d" src="img/letter-d.svg" width="250px"/>
-        <img class="letter r" src="img/letter-r.svg" width="280px"/>
-	    <img class="letter u" src="img/letter-u.svg" width="440px"/>
-        <img class="letter p" src="img/letter-p.svg" width="300px"/>
-        <img class="letter al" src="img/letter-a.svg" width="540px"/>
-        <img class="arrow flash animated" src="img/arrow.svg" />
-        
-	</div>
-	</section>
+           <div class="intro-title">
+            <h1>Drupalcamp 2017</h1>
+            <span>Madrid<br/>24/25/26 Mayo</span>
+           </div>
+            <img class="letter d" src="img/letter-d.svg" width="250px"/>
+            <img class="letter r" src="img/letter-r.svg" width="280px"/>
+            <img class="letter u" src="img/letter-u.svg" width="440px"/>
+            <img class="letter p" src="img/letter-p.svg" width="300px"/>
+            <img class="letter al" src="img/letter-a.svg" width="540px"/>
+            <img class="arrow flash animated" src="img/arrow.svg" />
 
-
-	<section id="slogan" class="cd-section">
-	<div class="sub">
-	  <div class="content">
-        <h2>Short n Sweet</h2>
-        
-        <div class="description">
-          <p>La Drupalcamp reúne durante un fin de semana a los mejores expertos del sector.</p>
-		  <p>El objetivo de la Drupal Camp es difundir y compartir las tendencias de la industria del desarrollo web en Drupal y sirve como punto de encuentro para la comunidad española.</p>
         </div>
-        
-		<div id="countdown" class="timer"></div>
-	 </div>	
-		
-		<img class="ico thunder" src="img/ico-thunder.svg" />
-        <img class="ico saturn" src="img/ico-saturn.svg" />
-		<img class="ico cloud" src="img/ico-cloud.svg" />
-		<img class="ico drop" src="img/ico-drop.svg" />
-		<img class="ico computer" src="img/ico-computer.svg" />
-		<img class="ico mobile" src="img/ico-mobile.svg" />
+        </section>
 
-	</div>
-	</section><!--slogan-->
-	
 
-	<section id="sponsor" class="cd-section">
-	<div class="sub">
-     <div class="content">
-        <h2>Conviértete en patrocinador</h2> 
-        <div class="description">
-          <p>Sponsoriza el evento y obtén a cambio difusión de tu marca.</p>
+        <section id="slogan" class="cd-section section">
+        <div class="sub">
+          <div class="content">
+            <h2 class="name animated bounceOutLeft">Short n Sweet</h2>
+
+            <div class="description">
+              <p>La Drupalcamp reúne durante un fin de semana a los mejores expertos del sector.</p>
+              <p>El objetivo de la Drupal Camp es difundir y compartir las tendencias de la industria del desarrollo web en Drupal y sirve como punto de encuentro para la comunidad española.</p>
+            </div>
+
+            <div id="countdown" class="timer"></div>
+         </div>
+
+            <img class="ico thunder animated bounceOutLeft" src="img/ico-thunder.svg" />
+            <img class="ico saturn" src="img/ico-saturn.svg" />
+            <img class="ico cloud" src="img/ico-cloud.svg" />
+            <img class="ico drop" src="img/ico-drop.svg" />
+            <img class="ico computer" src="img/ico-computer.svg" />
+            <img class="ico mobile animated bounceOutRight" src="img/ico-mobile.svg" />
+
         </div>
-        <a href="#" class="button">Descarga el dossier de patrocinios</a>
-      </div>
-	</div>
-	</section><!--sponsor-->
-	
-	
+        </section><!--slogan-->
 
-	<section id="community" class="cd-section">
-	<div class="sub">
-     <div class="content">
-        <h2>Uneté a la comunidad</h2>
-        <div class="description">
-          <p>La comunidad Drupal en España va aumentando año tras año. Cada vez son más las empresas, autónomos o estudiantes que se unen a una de las familias más influyentes del desarrollo web nacional.</p>
-        </div> 
-        <a href="#" class="button">Únete a la asociación española de Drupal</a>     
-      </div>
-	</div>
-	</section><!--community-->
-	
-	
 
-	<section id="newsletter" class="cd-section">
-	<div class="sub">
-     <div class="content">
-         <h2>Mantente informado</h2> 
-         <div class="description">
-          <p>Suscribete a nuestra lista de correo y no te pierdas las noticias sobre la Drupal Camp.</p>
-         </div> 
-      </div>
-	
-	
-	<img class="ico code" src="img/ico-code.svg" />
-    <img class="ico diamond" src="img/ico-diamond.svg" />
-	<img class="ico taxonomy" src="img/ico-taxonomy.svg" />
-	<img class="ico newsletter" src="img/ico-newsletter.svg" />
-	<img class="ico mouse" src="img/ico-mouse.svg" />
-	</div>
-	</section><!--newsletter-->
+        <section id="sponsor" class="cd-section section">
+        <div class="sub">
+		 <img class="circle" src="img/circle.svg" />
+         <div class="content">
+            <h2>Conviértete en patrocinador</h2>
+            <div class="description">
+              <p>Sponsoriza el evento y obtén a cambio difusión de tu marca.</p>
+            </div>
+            <a href="#" class="button">Descarga el dossier de patrocinios</a>
+          </div>
+        </div>
+        </section><!--sponsor-->
 
-    
-    <section id="footer" class="cd-section">
-	<div class="sub">
-       <div class="content">
-		  <span>Organiza:</span> 
-          <a href="http://asociaciondrupal.es/" class="aed">Asociación Española de Drupal</a>
-		  <div class="rrss">
-            <a href="#" class="contact">Contacto</a>
-            <a href="https://www.facebook.com/DrupalCampSpain" class="facebook">Facebook</a>
-            <a href="https://twitter.com/DrupalAED" class="twitter">Twitter</a>    
-	     </div>
-	  </div>
-	  <div class="pattern"></div>
-    </div>                         
-    </section>
 
+
+        <section id="community" class="cd-section section">
+        <div class="sub">
+         <div class="content">
+            <h2>Uneté a la comunidad</h2>
+            <div class="description">
+              <p>La comunidad Drupal en España va aumentando año tras año. Cada vez son más las empresas, autónomos o estudiantes que se unen a una de las familias más influyentes del desarrollo web nacional.</p>
+            </div>
+            <a href="#" class="button">Únete a la asociación española de Drupal</a>
+          </div>
+        </div>
+        </section><!--community-->
+
+
+
+        <section id="newsletter" class="cd-section section">
+        <div class="sub">
+         <div class="content">
+             <h2>Mantente informado</h2>
+             <div class="description">
+              <p>Suscribete a nuestra lista de correo y no te pierdas las noticias sobre la Drupal Camp.</p>
+             </div>
+             <!-- Begin MailChimp Signup Form -->     
+            <div id="mc_embed_signup">
+              <form action="//wildwildweb.us1.list-manage.com/subscribe/post?u=5d6fc5a33168f5d98de404508&amp;id=920eb96bb4" method="post"      			    id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+	            <h3 for="mce-EMAIL">Apúntate a nuestro newsletter</h3>
+	            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Escribe tu email" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5d6fc5a33168f5d98de404508_920eb96bb4"                 tabindex="-1" value=""></div>
+               <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+               </div>
+              </form>
+            </div>
+
+<!--End mc_embed_signup-->
+				 <span class="subtitle">Tranqui, no te freiremos a spam</span>
+			 </form>
+          </div>
+
+
+        <img class="ico code" src="img/ico-code.svg" />
+        <img class="ico diamond" src="img/ico-diamond.svg" />
+        <img class="ico taxonomy" src="img/ico-taxonomy.svg" />
+        <img class="ico newsletter" src="img/ico-newsletter.svg" />
+        <img class="ico mouse" src="img/ico-mouse.svg" />
+        </div>
+        </section><!--newsletter-->
+
+
+        <section id="footer" class="cd-section section">
+        <div class="sub">
+           <div class="content">
+              <span>Organiza:</span>
+              <a href="http://asociaciondrupal.es/" class="aed">Asociación Española de Drupal</a>
+              <div class="rrss">
+                <a href="#" class="contact">Contacto</a>
+                <a href="https://www.facebook.com/DrupalCampSpain" class="facebook">Facebook</a>
+                <a href="https://twitter.com/DrupalAED" class="twitter">Twitter</a>
+             </div>
+          </div>
+          <div class="pattern"></div>
+        </div>
+        </section>
+    </div>
 
 </body>
 </html>
