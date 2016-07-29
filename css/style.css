@@ -59,6 +59,12 @@
     background:  #4b26e6 url('../img/ico-button-arrow.svg') no-repeat left 30px center; 
 	max-width: 90%;
   }
+  
+  input {
+	appearance: none;  
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
 
 
 .section {
@@ -302,6 +308,7 @@
       padding: 0 0 0 10px;
 	  width: 75%;
       color: #dc2e76;
+	  border-radius: 0;
 }
 
 #newsletter input.button {
@@ -313,6 +320,7 @@
     line-height: 50px;
     padding: 0;
 	width: 25%;
+	appareance: ;
 }
 
 #newsletter span.subtitle {
@@ -423,7 +431,18 @@
 	 } 
 	 
 	 h2 {
-		 font-size: 400%;
+		 font-size: 300%;
+		 margin-bottom: 24px;
+	 }
+	 
+	 h2::after, 
+	 #newsletter h2::after {
+	     background-size: 30% auto;
+	     margin-top: 24px;
+	 }
+	 
+	 .description {
+		 font-size: 130%;
 	 }
 	 
 	 #footer .rrss {
@@ -440,10 +459,27 @@
 	     transform: translate(-50%, -50%);
 	 }
 	 
-	 #slogan .ico {
+	 #slogan .ico, 
+	 #newsletter .ico {
 	     opacity: 0.5;
 	     width: 8%;
 	 }
+	 
+	 .fp-section {
+		 padding: 20px 0;
+		 box-sizing: unset;
+	 }
+	 
+	 #intro.fp-section {
+		 padding: 0;
+		 box-sizing: border-box;
+	 }
+	 
+	 .button {
+		 padding: 15px 15px 15px 45px;
+		 background: #4b26e6 url("../img/ico-button-arrow.svg") no-repeat scroll left 15px center;
+	 }
+
 
  }
 
